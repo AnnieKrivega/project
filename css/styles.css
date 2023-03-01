@@ -38,17 +38,9 @@ p{
 
 }
 .photo {
-    width: 335px;
-    height: 442px;
-    background: url(/images/imag-phone.jpg);
-    background-repeat: no-repeat;
     padding-bottom: 20px;
     }
 .photo-2 {
-    width: 282px;
-    height: 153px;
-    background: url(/images/image-2-phone.jpg);
-    background-repeat: no-repeat;
     padding-bottom: 32px;
     left: 332px;
 right: 669px;
@@ -57,7 +49,6 @@ right: 669px;
     background: #121212;
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    position: absolute;
     left: 402px;
 right: 826px;
 }
@@ -101,27 +92,23 @@ right: 826px;
     color: #F7F7F7;
 }
 .photo-3 {
-    width: 335px;
-    height: 311px;
-    background: url(/images/image-4-phone.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .rectangle-2 {
     background: #121212;
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    position: absolute;
     left: 771px;
     right: 457px;
     }
 .photo-4 {
-    width: 335px;
-    height: 309px;
-    background: url(/images/image-3-phone.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .content {
     padding-top: 32px;
+    padding-bottom: 80px;
 }
 .content-complex {
 
@@ -200,61 +187,55 @@ right: 826px;
 
 @media screen and (min-width: 375px) {
 
+    .rectangle {
+        display: flex;
+    }
 .photo {
-    width: 335px;
-    weight: 442px;
-    background: url(/images/imag-phone.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .photo-2 {
-    width: 282px;
-    height: 153px;
-    background: url(/images/image-2-phone.jpg);
-    background-repeat: no-repeat;
+
+
 }
-    .photo-3 {
-    width: 335px;
-    height: 309px;
-    background: url(/images/image-3-phone.jpg);
-    background-repeat: no-repeat;
+.photo-3 {
+
+
+}
+.rectangle-2 {
+    display: flex;
 }
 .photo-4 {
-    width: 335px;
-    height: 311px;
-    background: url(/images/image-4-phone.jpg);
-    background-repeat: no-repeat;
+
 }
 
 }
 
 @media screen and (min-width: 768px) {
 
+    .rectangle {
+        display: flex;
+    }
 .photo {
-    width: 482px;
-    height: 636px;
-    background: url(/images/imag-tablet.jpg);
-    background-repeat: no-repeat;
+
+
 }
     .photo-2 {
-    width: 404px;
-    height: 219px;
-    background: url(/images/image-2-tablet.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .content-complex {
     padding-top: 32px;
 }
 .photo-3 {
-    width: 266px;
-    height: 309px;
-    background: url(/images/image-3-tablet.jpg);
-    background-repeat: no-repeat;
+
+}
+.rectangle-2 {
+    display: flex;
 }
 .photo-4 {
-    width: 530px;
-    height: 492px;
-    background: url(/images/image-4-tablet.jpg);
-    background-repeat: no-repeat;
+
+
 }
 
 }
@@ -294,16 +275,12 @@ right: 826px;
     display: flex;
 }
 .photo {
-    width: 482px;
-    height: 636px;
-    background: url(/images/imag-1-rest.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .photo-2 {
-    width: 439px;
-    height: 219px;
-    background: url(/images/imag-2-rest.jpg);
-    background-repeat: no-repeat;
+
+
 }
 .about-bus-class {
     padding-bottom: 144px;
@@ -313,11 +290,9 @@ right: 826px;
     margin-right: auto;
 }
 .photo-3 {
-    width: 266px;
-    height: 309px;
+
     padding-right: 54px;
-    background: url(/images/imag-3-bus.jpg);
-    background-repeat: no-repeat;
+
 }
 .rectangle-2 {
     background: #121212;
@@ -329,11 +304,9 @@ right: 826px;
     right: 457px;
     }
 .photo-4 {
-    width: 530px;
-    height: 492px;
+
     padding-left: 82px;
-    background: url(/images/imag-4-bus.jpg);
-    background-repeat: no-repeat;
+
 
 }
 }
